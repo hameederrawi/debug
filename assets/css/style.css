@@ -55,6 +55,14 @@
     margin-bottom: 40px;
 }
 
+/*
+Forces image to be 100% width and not max width of 100%
+*/
+.carousel-item img {
+
+   flex-shrink: 1;
+}
+
 /* ----------------------------------------Special paddings/margins/text */
 
 h1,
