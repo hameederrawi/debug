@@ -5,47 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
+    <!-- Added link to bootstrap 3.4.1 for carousel to work -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css">
     <!-- added javascript source from bootstrap for carousel to work -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
+    <title>Reality Decor</title>
 </head>
 <body>
+    <!-- code institute mini project tutorial with some adjustments by me -->
     <header>
-        <div class="row no-gutters">
-            <a class="col-md-4 logo" href="02-index.html"></a>
-            <div class="col-md-8">
-                <div class="row no-gutters">
-                    <div class="col heading imagetop">
-                        <p class="name strokeme"><h1 class="name strokeme ::first-letter">Reality</h1>
-                        <h2 class="title strokeme ::first-letter">Decor</h2></p>
+            <div class="row no-gutters"> 
+              <a class="col-md-4 logo" href="index.html"></a>          
+                <div class="col-md-8">
+                    <div class="row no-gutters">
+                        <div class="col heading imagetop">
+                            <p class="name strokeme"><h1 class="name strokeme ::first-letter">Reality</h1>
+                            <h2 class="title strokeme ::first-letter">Decor</h2></p>
+                        </div>
                     </div>
-                </div>
-                <div class="row no-gutters">
+                  <div class="row no-gutters">
                     <div class="col">
                         <ul id="nav" class="list-inline menucontainer">
                             <li class="col-6 col-sm-3 list-inline-item ui-menu-color-home menuitem">
                                 <a href="index.html" class="hvr-sweep-to-bottom"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
                             </li>
-                            <li class="col-6 col-sm-3 list-inline-item ui-menu-color-resume menuitem">
-                                <a href="resume.html" class="hvr-sweep-to-bottom"><i class="fa fa-graduation-cap" aria-hidden="true"></i><span>Resume</span></a>
+                            <li class="col-6 col-sm-3 list-inline-item ui-menu-color-about menuitem">
+                                <a href="about.html" class="hvr-sweep-to-bottom"><i class="fa fa-book" aria-hidden="true"></i><span>About Us</span></a>
+                            </li>
+                            <li class="col-6 col-sm-3 list-inline-item ui-menu-color-products menuitem">
+                                <a href="products.html" class="hvr-sweep-to-bottom"><i class="fa fa-spinner" aria-hidden="true"></i><span>Products</span></a>
                             </li>
                             <li class="col-6 col-sm-3 list-inline-item ui-menu-color-contact menuitem">
                                 <a href="contact.html" class="hvr-sweep-to-bottom"><i class="fa fa-comment-o" aria-hidden="true"></i><span>Contact</span></a>
                             </li>
-                            <li class="col-6 col-sm-3 list-inline-item ui-menu-color-download menuitem">
-                                <a href="assets/cv/sample-cv.pdf" target="_blank" class="hvr-sweep-to-bottom"><i class="fa fa-download" aria-hidden="true"></i><span>Download CV</span></a>
-                            </li>
+                            
                         </ul>
                     </div>
-                </div>
+                  </div>
+               </div>
             </div>
-        </div>
     </header>
-     <section>
+    <section>
     <!-- Added carousel from bootstrap website -->
         <div class="container-fluid container-style">
              
@@ -89,29 +93,39 @@
         </div>
 
     </section>
+    <!-- code institute mini project tutorial with some adjustments by me -->
     <footer class="container-fluid">
         <div id="footer-details" class="row">
             <div class="col-sm-4">
-                <h5 class="uppercase general-sub">About</h5>
+                <h5 class="uppercase general-sub">Reality Decor</h5>
                 <p class="inline-block">
-                    Full Stack Web Developer. Skilled in everything from HTML to Heroku. The capacity for structural and design thinking.
+                    Mecca Street,  </p>
+                <p class="inline-block">    
+                    Amman, </p>
+                <p class="inline-block">
+                    Jordan</p>
+                <p class="block">
+                    Tel: 009626111222</p>
+                <p class="block">
+                    Email: info@realitydecor.com 
+                    
                 </p>
             </div>
-            <div class="col-sm-4">
+      <div class="col-sm-4">
                 <h5 class="uppercase general-sub">Download</h5>
                 <p class="inline-block">
-                    Need a printable version of my CV? Download it here.
-                    <a href="assets/cv/sample-cv.pdf" target="_blank" class="cv-pdf">
-                        <i class="fa fa-download" aria-hidden="true"></i>
-                        <span class="sr-only">Download link.</span>
+                    Download products Brochure.
+                    <a href="assets/brochure/brochure.pdf" target="_blank" class="brochure-pdf">
+                      <i class="fa fa-download" aria-hidden="true"></i>
+                      <span class="sr-only">Download link.</span>
                     </a>
-                </p>
-            </div>
+                </p>                                       
+       </div> 
             <div class="col-sm-4">
                 <h5 class="uppercase general-sub">Social</h5>
                 <ul class="list-inline social-links">
                     <li class="list-inline-item">
-                        <a target="_blank" href="#">
+                        <a target="_blank" href="https://www.facebook.com/realitydecor/">
                             <i class="fa fa-facebook" aria-hidden="true"></i>
                             <span class="sr-only">Facebook</span>
                         </a>
