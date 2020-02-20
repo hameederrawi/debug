@@ -142,6 +142,39 @@ header {
     color: #fff;
 }
 
+/*--------------------------------------------class .strokeme reference stackoverflow */
+
+.strokeme {
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  
+}
+
+/*--------------------------------------------class p::first-letter reference w3schools Got it working  
+after replacing P with h1 and target h1 with ::first-letter, this way other P elements in the body are not effected */
+
+h1::first-letter {
+  font-size: 200%;
+  color: #fdfdfd;
+  font-family: helvetica;
+  font-weight: bold;
+  
+}
+
+
+h1 {
+    height: 80px;
+}
+
+h2::first-letter {
+  font-size: 100%;
+  color: #ffffff;
+  font-family: helvetica;
+  font-weight: bold;
+  
+}
+
+
 .list-inline-item:not(:last-child) {
     margin: 0;
 }
