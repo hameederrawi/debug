@@ -107,11 +107,12 @@ header {
 }
 
 .logo {
-    background: url("../images/rosie.jpg");
+    background: url("https://hameederrawi.github.io/UCFD-M-Project1/assets/images/logo.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 360px;
+    min-height: 270px;
+    -o-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
