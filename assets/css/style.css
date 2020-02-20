@@ -63,6 +63,11 @@ Forces image to be 100% width and not max width of 100%
    flex-shrink: 1;
 }
 
+.caroS {
+    display: flex; 
+    align-items: stretch;
+}
+
 /* ----------------------------------------Special paddings/margins/text */
 
 h1,
